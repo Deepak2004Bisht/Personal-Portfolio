@@ -1,0 +1,94 @@
+ body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* HOME */
+    #home .intro{
+      margin-top: 6rem;
+    }
+
+    #home .bottom{
+      place-items: center;
+    }
+
+    #typed-text{
+        color: white;
+    }
+
+    #connect h2{
+      color: white;
+    }
+
+    /* SKILLS */
+    #skills .skill{
+      cursor: pointer;
+    }
+    #skills .skill img{
+      width: 7rem;
+      height: 7rem;
+    }
+    #skills .skill p{
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    /* CONNECT */
+    #connect .whatsapp{
+      width: 32px;
+      height: 33px;
+    }
+
+
+    /* MEDIA QUERIES */
+    @media(max-width: 768px){
+      #home .upper{
+        margin-bottom: 19rem;
+      }
+    }
+
+    @media(max-width: 650px){
+      #education .user-icon, #experience .user-icon{
+        width: 80px;
+      }
+      #education .duration, #experience .duration{
+        display: inline-grid;
+        text-align: center;
+      }
+      #experience .location{
+        text-align: left;
+      }
+    }
+
+    @media(max-width: 380px){
+      #skills .skill img{
+        width: 7rem;
+        height: 6rem;
+      }
+      #skills .skill p{
+        font-size: 15px;
+      }
+    }
+
+    @media(max-width: 350px){
+      #skills .skill img{
+        width: 7rem;
+        height: 5rem;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
