@@ -28,10 +28,17 @@
     #skills .skill{
       cursor: pointer;
     }
+
     #skills .skill img{
       width: 7rem;
       height: 7rem;
     }
+
+    #skills .skills img{
+      width: 10rem;
+      height: 7rem;
+    }
+
     #skills .skill p{
       font-size: 20px;
       font-weight: bolder;
