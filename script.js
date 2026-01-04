@@ -1,10 +1,17 @@
  // Typed.js
-    new Typed("#typed-text", {
-      strings: ["Frontend Developer", "React", "MERN Stack Developer", "DSA Learner", "AI Learner"],
-      typeSpeed: 60,
-      backSpeed: 40,
-      loop: true
-    });
+  new Typed("#typed-text", {
+    strings: [
+      "Data Analyst",
+      "Excel and SQL",
+      "Python for Data Analysis",
+      "Data Visualization",
+      "Business Insights"
+    ],
+    typeSpeed: 60,
+    backSpeed: 40,
+    loop: true
+  });
+
 
 
     // Mobile Menu
